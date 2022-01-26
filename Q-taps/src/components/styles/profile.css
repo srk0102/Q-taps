@@ -1,0 +1,12 @@
+.button{
+    margin-top:10px;
+    background-color:"lightBlue";
+    font-weight:bold;
+    color:black;
+    border-radius:5px;
+    border-width:2px;
+    font-size:15px;
+    width:70px;
+    border-color:black;
+
+}

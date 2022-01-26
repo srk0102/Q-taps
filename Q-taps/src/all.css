@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+/* .app {
+    background-color: #1F2833;
+    color: white;
+} */
+
+html {
+    overflow: hidden;
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    overflow: auto;
+}
+
+.qauthor {
+    color: #66FCF1;
+    font-size:12px;
+}
+
+/* .qbox {
+    border-right: 2px solid #5CF2F1;
+    margin-right: 10px;
+} */
+
+.qtapcontainer {
+    border: 2px solid #5CF2F1;
+    border-bottom: none;
+    min-height: 250px;
+}
+
+.question-container {
+    max-height: 120px;
+    overflow-y: scroll;
+}
+
+.obox {
+    max-height: 230px;
+    overflow-y: scroll;
+}
+
+.icon {
+    font-size: 15px;
+}
+
+.icon:hover {
+    font-size: 18px;
+    transition: 0.2s;
+}
+
+.red {
+    color: #ff461c;
+}
+
+.blue {
+    color: #1cacff;
+}
+
+.but-blue {
+    background-color: #5CF2F1;
+    border: none;
+}
+
+::-webkit-scrollbar {
+    width: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #45A29E;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: #1F2833;
+}
+
+.input-blue {
+    border: none;
+    border-bottom: 2px solid #5CF2F1;
+    background-color: transparent;
+}
+
+.input-blue:focus {
+    outline: none;
+    caret-color: #5CF2F1;
+}
+
+.writeq{
+    border: 2px solid #5CF2F1;
+    border-top: none;
+}
+
+.disable {
+    pointer-events: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-height: 230px;
+    overflow-y: scroll;
+}

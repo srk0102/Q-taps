@@ -1,0 +1,43 @@
+{
+    "user_questions": [
+    {
+        "questions": [
+            {
+                "id": 1,
+                "ques": "what is the best currency in the world?",
+                "options": [
+                    "BIT COIN", "some currency", "indian currency","na value"
+                ],
+                "userId":1,
+                "userName":"srk"
+            }, {
+                "id": 2,
+                "ques": "who is the best PM?",
+                "options": [
+                    "Me", "Your father", "My pet"
+                ],
+                "userId":1,
+                "userName":"srk"
+            },
+            {
+                "id": 1,
+                "ques": "what is the best currency in the world?",
+                "options": [
+                    "BIT COIN", "some currency", "indian currency"
+                ],
+                "userId":2,
+                "userName":"praneeth"
+            }, 
+            {
+                "id": 2,
+                "ques": "who is the best PM?",
+                "options": [
+                    "Me", "Your father", "My pet"
+                ],
+                "userId":2,
+                "userName":"praneeth"
+            }
+            ]
+        }
+    ]
+}
